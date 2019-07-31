@@ -40,16 +40,6 @@ if __name__ == '__main__':
     print("below expression is interpreted from image")
     print(format(captcha_text))
 a=format(captcha_text)
-c=int(a[0])
-d=int(a[2])
-if(a[1]=='+'):
-	result=c+d
-if(a[1]=='-'):
-        result=c-d
-if(a[1]=='*'):
-        result=c*d
-if(a[1]=='/'):
-        result=c/d
 print("result of expression")
-print(result)
+print(eval(a))
 
