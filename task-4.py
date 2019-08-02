@@ -22,16 +22,25 @@ def execute(x):
 		if(k==1):
              		break
 		for j in a:
+                	if(k==1):
+                        	break
 			for k in a: 
+                        	if(k==1):
+                                 	break
 				for l in a:
-					for m in a:
-						t+=1
+                                	 if(k==1):
+                                                break
+					 for m in a:
+                                         	if(k==1):
+                                                	break
+      						t+=1
 						key=(i+j+k+l+m)
                         			print "process", t,key
 						flag=xor_encrypt(x,key)
 						if(hash_check(flag)==1):
 							print flag
 		                                	k=1
+                                                        break
                                                 
 def hash_check(flag):
 	if hashlib.md5(flag).digest().encode("hex") == "d444d1ac3799a86d31f34b4a8a3243c6":
