@@ -5,7 +5,7 @@
 
 Blog of my overall experince with tasks
 
- - [myblog](wordpress.com)
+ - [myblog](https://wordpress.com/post/bharathspi.home.blog/15)
 
 ### Task-1
 
