@@ -1,0 +1,10 @@
+[package]
+name = "req"
+version = "0.1.0"
+authors = ["bharathspi <bharathreddyspi@gmail.com>"]
+edition = "2018"
+[[bin]]
+name="main"
+path="src/main.rs"
+[dependencies]
+regex="0.1"
