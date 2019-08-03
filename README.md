@@ -26,6 +26,10 @@ Programming. Solutions for them can be found from respective folder and submissi
  
 Java script for finding details of github user taking his handle name.
 
+### Task-7
+
+code for validating email through rust using regex libraries
+
 ### Task-8
 
 A python script for evaluting captcha and some images for testing the code.
